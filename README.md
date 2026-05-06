@@ -9,3 +9,4 @@ Develop a CV application to run on your computer that--using mediapipe--is able 
 Notes:
 
 * Works perfectly for Python 3.12.X, but if any student has already installed Python > 3.12.X, we will use master.py & track_hands2.py.
+* TODO: Create student scripts for both version/make 3.14 version into notebook.
