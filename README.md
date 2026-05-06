@@ -2,16 +2,10 @@
 
 Total time: 1.5 hrs.
 
-## TL;DR
+Develop a CV application to run on your computer that--using mediapipe--is able to do different actions based on they way that you move your fingers (gestures)
 
-Develop a CV application to run on your computer that--using mediapipe--is able to do different actions based on they way that you move your fingers.
+[Slides](https://www.canva.com/design/DAHIqXwvecw/5LazoB009luYLC7pV1jX0g/edit)
 
-1. Have everyone install VS Code or open a Google Colab notebook.
+Notes:
 
-2. Have everyone install the required software.
-
-3. Start teaching through the notebook
-
-4. Run the application.
-
-5. Have students do the exercises at the end.
+* Works perfectly for Python 3.12.X, but if any student has already installed Python > 3.12.X, we will use master.py & track_hands2.py.

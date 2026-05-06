@@ -11,20 +11,20 @@ HANDEDNESS_TEXT_COLOR = (88, 205, 54)  # vibrant green
 
 def draw_landmarks_on_image(rgb_image, detection_result):
     hand_landmarks_list = detection_result.hand_landmarks
-    handedness_list     = detection_result.handedness
-    annotated_image     = np.copy(rgb_image)
-    height, width, _    = annotated_image.shape
+    handedness_list = detection_result.handedness
+    annotated_image = np.copy(rgb_image)
+    height, width, _ = annotated_image.shape
 
     for idx in range(len(hand_landmarks_list)):
         hand_landmarks = hand_landmarks_list[idx]
-        handedness     = handedness_list[idx]
+        handedness = handedness_list[idx]
 
         # Draw connections (bones) first so dots appear on top
         for connection in mp.tasks.vision.HandLandmarksConnections.HAND_CONNECTIONS:
             start = hand_landmarks[connection.start]
-            end   = hand_landmarks[connection.end]
+            end = hand_landmarks[connection.end]
             start_pt = (int(start.x * width), int(start.y * height))
-            end_pt   = (int(end.x * width),   int(end.y * height))
+            end_pt = (int(end.x * width),   int(end.y * height))
             cv2.line(annotated_image, start_pt, end_pt, (255, 255, 255), 2)
 
         # Draw landmark dots
