@@ -9,3 +9,9 @@ Develop a CV application to run on your computer that--using mediapipe--is able 
 ## Master Demo
 
 <video controls src="input.mp4" title="Master Demo"></video>
+
+* Peace sign: Take a picture.
+* Middle finger: Turn the user’s view red.
+* Zot: Show a picture of Peter the Anteater and turns the view blue & yellow.
+* Go, Coogs!: Show a picture of Shasta the Cougar.
+* Pinching: Allow us to zoom in and zoom out.
