@@ -8,7 +8,9 @@ Develop a CV application to run on your computer that--using mediapipe--is able 
 
 ## Master Demo
 
-<video controls src="input.mp4" title="Master Demo"></video>
+<video controls>
+  <source src="input.mp4" type="video/mp4">
+</video>
 
 * Peace sign: Take a picture.
 * Middle finger: Turn the user’s view red.
